@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nexa Wallet — Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="banner">DEMO / TESTNET — NO REAL FUNDS</div>
+
+<header>
+  <div class="nav">
+    <b>NEXA<span>WALLET</span></b>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#security">Security</a>
+      <a href="#wallet">Demo Wallet</a>
+    </nav>
+
+    <button id="connectTop" class="outline">
+      Connect Demo Wallet
+    </button>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+
+  <div>
+    <small>FICTIONAL WEB3 EXPERIENCE</small>
+
+    <h1>
+      Your Digital Assets.<br>
+      <em>Your Control.</em>
+    </h1>
+
+    <p>
+      A polished cryptocurrency wallet interface built strictly
+      for demonstration. No real credentials, blockchain
+      connections or funds are used.
+    </p>
+
+    <a class="primary" href="#wallet">
+      Launch Demo Wallet
+    </a>
+
+    <a class="secondary" href="#features">
+      View Features
+    </a>
+  </div>
+
+  <div class="card">
+
+    <div>
+      Demo Balance
+      <i>TEST</i>
+    </div>
+
+    <strong>$12,840.52</strong>
+
+    <div class="chart">
+      ▁▃▂▅▄▇█
+    </div>
+
+    <code>0xDEMO...2026</code>
+
+  </div>
+
+</section>
+
+
+<section id="features">
+
+  <small>FEATURES</small>
+
+  <h2>Explore the wallet interface.</h2>
+
+  <div class="grid">
+
+    <article>
+      <b>◈</b>
+      <h3>Demo Portfolio</h3>
+      <p>
+        Fictional BTC, ETH and USDT balances in a realistic dashboard.
+      </p>
+    </article>
+
+    <article>
+      <b>↗</b>
+      <h3>Simulated Actions</h3>
+      <p>
+        Try send, receive and swap flows without moving real cryptocurrency.
+      </p>
+    </article>
+
+    <article>
+      <b>◆</b>
+      <h3>Privacy First</h3>
+      <p>
+        No real recovery phrases, private keys or passwords are collected.
+      </p>
+    </article>
+
+  </div>
+
+</section>
+
+
+<section id="wallet">
+
+  <div class="heading">
+
+    <div>
+      <small>DEMO WALLET</small>
+      <h2>Your Dashboard</h2>
+    </div>
+
+    <button class="primary" id="connect">
+      Connect Demo Wallet
+    </button>
+
+  </div>
+
+
+  <div class="balance">
+
+    <small>Total Demo Balance</small>
+
+    <strong>$12,840.52</strong>
+
+    <code>
+      0xDEMO-4829-TEST-2026
+    </code>
+
+  </div>
+
+
+  <div class="assets">
+
+    <div>
+      ₿
+      <b>BTC</b>
+
+      <span>
+        0.084 BTC<br>
+        $5,610.00
+      </span>
+    </div>
+
+    <div>
+      ◆
+      <b>ETH</b>
+
+      <span>
+        2.45 ETH<br>
+        $4,980.52
+      </span>
+    </div>
+
+    <div>
+      $
+      <b>USDT</b>
+
+      <span>
+        4,250 USDT<br>
+        $4,250.00
+      </span>
+    </div>
+
+  </div>
+
+
+  <div class="actions">
+
+    <button data-modal="send">
+      Send ↗
+    </button>
+
+    <button data-modal="receive">
+      Receive ↓
+    </button>
+
+    <button data-modal="swap">
+      Swap ⇄
+    </button>
+
+    <button data-modal="import">
+      Import Demo Wallet +
+    </button>
+
+  </div>
+
+
+  <div class="transactions">
+
+    <h3>
+      Recent Activity
+      <small>Simulated only</small>
+    </h3>
+
+    <p>
+      ↓ Demo ETH Received
+      <span>+0.40 ETH</span>
+    </p>
+
+    <p>
+      ↗ Demo USDT Sent
+      <span>-250 USDT</span>
+    </p>
+
+    <p>
+      ⇄ Demo Swap
+      <span>0.10 ETH → USDT</span>
+    </p>
+
+  </div>
+
+</section>
+
+
+<section id="security">
+
+  <small>SECURITY</small>
+
+  <h2>
+    Never enter real wallet credentials here.
+  </h2>
+
+  <p>
+    This is a fictional demonstration. Real recovery phrases
+    and private keys are sensitive credentials and should never
+    be entered into an unknown website.
+  </p>
+
+  <div class="warning">
+    ⚠️ Never enter your real recovery phrase or private key
+    on this demo website.
+  </div>
+
+</section>
+
+</main>
+
+
+<footer>
+  NEXA WALLET · FICTIONAL DEMO · NO REAL BLOCKCHAIN CONNECTION
+</footer>
+
+
+<div class="modal" id="modal">
+
+  <div class="modalbox">
+
+    <button id="close">×</button>
+
+    <div id="modalContent"></div>
+
+  </div>
+
+</div>
+
+
+<div id="toast"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
